@@ -1,0 +1,181 @@
+.body{
+    background-color:rgb(40, 86, 172);
+}
+.pro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jet{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgo{
+    width: 150px;
+    height: 150px;
+}
+.img{
+    width:100%;
+}
+.frm{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ex{
+    display:flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.a{
+    text-decoration: none;
+}
+.lin{
+    width: 200px;
+}
+.dor{
+ display: flex;
+}
+.yuo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tuo{
+    background-color: blue;
+}
+.bi{
+    color: blue;
+    border: none;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="frm">
+<form class="fom">
+    <label class="lab  cli">Secure Client Login</label>
+    <label class="lab">Email</label>
+    <input type="email" placeholder="Enter email" class="put">
+    <div class="ex">
+        <label class="lab">Password</label><a href="#" class="a">Forgot?</a>
+    </div>
+    <input type="password" placeholder="Password" class="put"><br>
+    <div class="ex">
+        <input type="checkbox" class="box"><p>Remember Me</p>
+    </div>
+    <button class="log">Login</button>
+    <div class="OR">
+        <hr class="lin"><span>or</span><hr class="lin">
+    </div>
+    <div class="hty">
+        <button class="yuo">
+            <i class="bi bi-facebook"></i><span class="ko">Sign in with Facebook </span>
+        </button>
+    </div>
+</form> 
+</div>

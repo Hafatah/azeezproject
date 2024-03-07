@@ -1,0 +1,141 @@
+.back{
+    width:100%;
+    height:100%;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.61);
+   
+    z-index: -1;
+}
+.name{
+    z-index: 1;
+}
+.body{
+    background-image: url("images\ \(laptop\).jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: auto;
+}
+.log{
+    height:100px;
+    width:100px;
+}
+.img{
+    width:100%;
+}
+.txt{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fom{
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius:10px;
+    border:none;
+    width:fit-content;
+}
+.fai{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 32px;
+    color: #353030;
+    font-weight: 700px;
+}
+.zah{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+}
+.zeem{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.put{
+    border:2px solid red;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+#txt{
+    color: red;
+}
+.opt{
+    font-family: Arial;
+    font-size: 16px;
+    color: #353030;
+}
+.cra{
+    background-color:rgba(175, 87, 87, 0.521);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cra:hover{
+    background-color: rgba(182, 114, 114, 0.425);
+}
+ul{
+    list-style-type: none;
+}
+.olk{
+    text-decoration: none;
+    color: rgba(99, 111, 124, 0.966);
+    font-size: small;
+}
+.dpo:hover{
+    color: red;
+    text-decoration: underline;
+}
+.kil{
+    color: red;
+    text-decoration: none;
+    font-size: small;
+}
+.kil:hover{
+    text-decoration: underline;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.fot{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    border:1px solid rgba(0, 0, 0, 0.459);
+    border-radius: 100%;
+    padding: 5px;
+}
+.ter{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;;
+    font-size: 12px;
+    Color:rgba(255, 255, 255, 0.7);
+}
+.ter:hover{
+    color: white;
+}
+.ser{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 12px;
+    color:rgba(255, 255, 255, 0.7) ;
+    list-style-type: none;
+}
+.ser:hover{
+    color: white;
+}
+.res{
+    display: flex;
+
+}
+@media screen and (max-width: 768px) {
+    .txt{
+        display: none;
+    }
+}
