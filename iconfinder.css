@@ -1,0 +1,206 @@
+.devi{
+    width: 100%;
+    height: 100%;
+}
+.cevi{
+    width: 100%;
+    height: 100%;
+}
+#cav{
+    width: 100%;
+}
+.gim{
+    width: 200px;
+}
+.pot{
+    width: 100%;
+}
+.top{
+    display: flex;  
+}
+.wnv{
+    display:flex;
+}
+.fnv{
+    width: 100%;
+    display: flex;
+}  
+.snv{
+    width: auto;
+}
+.don{
+    font-size: 11.2px;
+    font-weight:bolder;
+}
+.fhed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hed{
+    font-size: 42px;
+    font-weight:800px;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left:5%;
+}
+.shed{
+    font-size :18px;
+    font-weight: 400px;
+    color: #171c20;
+}
+.inpot{
+    display: flex;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.801);
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:5px;
+    padding-left:5px;
+    border-radius:10px;
+    margin-right:1%;
+    border: 2px solid black;
+}
+.icons{
+    font-weight: 800px;
+    width:10%;
+}
+.srch{
+    font-weight:800px;
+}
+.lhed{
+    display:flex;
+    justify-content: center;
+}
+#lhed{
+    display: flex;
+}
+.mid{
+    border:2px solid black;
+    width:100%;
+    display:flex;
+    align-items:justify-content;
+    border-radius:5px;
+    padding-right:3%;
+    padding-left:3%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+.cen{
+    display:flex;
+    justify-content: center;
+}
+.nec{
+    display:flex;
+    justify-content: center;
+}
+.den{
+    display: flex;
+    justify-content: space-between;
+}
+.ole:hover{
+    box-shadow: 0px 2px 0px 2 black;
+}
+.otelo{
+    background: none ;
+}
+.carmid{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.istock{
+    width: 70px;
+}
+.gettyisock{
+    display: flex;
+    justify-content: space-between;
+}
+.gra{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.isdoc{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+}
+.isdic{
+    width: 90px;
+    border:0.5px solid black;
+}
+.isbel{
+    display: flex;
+    justify-content: flex-end;
+}
+.butblog{
+    width:100%;
+}
+.blo{
+    width:20%;
+}
+.lede{
+    display: flex;
+    justify-content: space-between;
+}
+.lobo{
+    background-color: white;
+  
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+.buj{
+    width:100%;
+} 
+.pof{
+    width:100%;
+    display: flex;
+}
+.mont{
+    width: 25%;
+}
+.nom{
+    width:fit-content;
+}
+.cem{
+    width: 200px;
+}
+.mrc{
+    width: 100%;
+}
+.picfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aweh{
+    width: 300px;
+}
+.weh{
+    width: 100%;
+}
+.afot{
+    display: flex;
+    justify-content: space-between;
+}
+.lasfoot{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .vel{
+        display: none;
+    }
+    .pof{
+        display:flex;
+        flex-direction: column;
+    }
+    .picfoot{
+        display: none;
+    }
+    .lasfoot{
+        display: flex;
+        flex-direction: column;
+    }
+}

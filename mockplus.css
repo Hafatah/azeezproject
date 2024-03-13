@@ -134,8 +134,3 @@ ul{
     display: flex;
 
 }
-@media screen and (max-width: 768px) {
-    .txt{
-        display: none;
-    }
-}
