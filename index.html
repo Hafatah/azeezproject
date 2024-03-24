@@ -29,87 +29,65 @@
     a{
       text-decoration: none;
     }
-    .you{
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 0, 0, 0.651) ;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border:none;
-    }
-    ul{
-      list-style-type: none;
-    }
-    .me{
-      width: 100%;
-      height:100%;
-    }
-    .fal{
-      display: flex;
-    }
-    .lef{
-      display:flex;
-    }
-    .lav{
-      width: 25px;
-      height: 25px;
-    }
-    .omg{
-      width:100%;
-    }
   </style>
   </head>
 
   <body>
 
-  <div class="alert alert-warning alert-dismissible">
-    HELLO WELCOME TO MY PAGE
-    <button class="btn-close" data-bs-dismiss="alert" aria-label="&times;"></button>
-  </div>
-  <div class="me  container">
-    <div class="row">
-        <div class="container">
-          <h1>WELCOME TO MY PROJECT PAGE</h1>
-        </div>
-        <div class="you">
-          <div class="lav">
-            <img src="logo index.jpeg" alt="this is an image" class="omg">
+    <div class="topheader">
+      <div class="alert alert-warning alert-dismissible">
+          CAVEAT:This is a STUDENT PROJECT, not an attemp to clone the original websites
+          <button class="btn-close" data-bs-dismiss="alert" aria-label="&times;"></button>
+      </div> 
+      <div class="mynavigation">
+          <div style="background-color: darkcyan;" class="d-flex justify-content center">
+              <p>CLICK TO NAVIGATE THROUGH OTHER PAGES &nbsp;</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                  MY PROJECTS
+              </a> 
           </div>
-          <div class="fal">
-            <ul class="lef">
-              <li>
-                <a href="mockplus.html">PROJECT 1 </a>
-              </li>
-               <li>
-                <a href="iconfinder.html">PROJECT 2 </a>
-              </li>
-              <!--<li>
-                <a href="">PROJECT 3 </a>
-              </li>
-              <li>
-                <a href="">PROJECT 4 </a>
-              </li>
-              <li>
-                <a href="">PROJECT 5 </a>
-              </li>
-              <li>
-                <a href="">PROJECT 6 </a>
-              </li>
-              <li>
-                <a href="">PROJECT 7 </a>
-              </li>
-              <li>
-                <a href="">PROJECT 8 </a>
-              </li> -->
-            </ul>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-color: rgba(0, 0, 0, 0.459);">
+              <div class="offcanvas-header" style="background-color: rgb(251, 255, 0);">
+                  THESE ARE MY PROJECTS
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div>
+                  <div style="background-color: rgba(255, 255, 0, 0.877);">
+                      <h5><a href="mockplus.html">PROJECT1</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="cloudflare.html">PROJECT2</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0)">
+                      <h5><a href="whogohost.html">PROJECT3</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="iconfinder.html">PROJECT4</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="udacity.html">PROJECT5</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="10web.io.html">PROJECT6</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="crushingit.html">PROJECT7</a></h5>
+                      <hr>
+                  </div>
+                  <div style="background-color: rgb(255, 255, 0);">
+                      <h5><a href="nikkihillapotechy.html">PROJECT8</a></h5>
+                      <hr>
+                  </div>
+              </div>
           </div>
-          <div class="lav">
-            <img src="logo index 2.png" alt="this is an image" class="omg">
-          </div>
-        </div>
       </div>
-    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 

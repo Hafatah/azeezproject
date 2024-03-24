@@ -1,181 +1,85 @@
-.body{
-    background-color:rgb(40, 86, 172);
+.cevi{
+   display: flex;
+   justify-content: center;
+   margin-top:15px;
 }
-.pro{
-    width: 100%;
-    height: 100%;
+.logodiv{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.jet{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.lgo{
-    width: 150px;
-    height: 150px;
-}
-.img{
-    width:100%;
-}
-.frm{
-    background-color: whitesmoke;
-    border-radius: 10px;
-    display:flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 50px;
+    height: 75px;
+    margin: 0% auto;
 }
 
-.ex{
-    display:flex;
-    justify-content: space-between;
-    align-items: space-between;
-}
-.a{
-    text-decoration: none;
-}
-.lin{
-    width: 200px;
-}
-.dor{
- display: flex;
-}
-.yuo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.tuo{
-    background-color: blue;
-}
-.bi{
-    color: blue;
-    border: none;
+.vedi{
     background-color: white;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="frm">
-<form class="fom">
-    <label class="lab  cli">Secure Client Login</label>
-    <label class="lab">Email</label>
-    <input type="email" placeholder="Enter email" class="put">
-    <div class="ex">
-        <label class="lab">Password</label><a href="#" class="a">Forgot?</a>
-    </div>
-    <input type="password" placeholder="Password" class="put"><br>
-    <div class="ex">
-        <input type="checkbox" class="box"><p>Remember Me</p>
-    </div>
-    <button class="log">Login</button>
-    <div class="OR">
-        <hr class="lin"><span>or</span><hr class="lin">
-    </div>
-    <div class="hty">
-        <button class="yuo">
-            <i class="bi bi-facebook"></i><span class="ko">Sign in with Facebook </span>
-        </button>
-    </div>
-</form> 
-</div>
+.devi{
+    background-color: white;
+   margin-left:20px;
+   margin-right: 20px;
+   margin-bottom: 15px;
+}
+.passline{
+    display: flex;
+    justify-content: space-between;
+}
+.butlog{
+    background-color:rgb(16, 98, 254);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cbox{
+    width: 50%;
+}
+.hrsp{
+    width: 48%;
+}
+.orfoot{
+    display: flex;
+}
+.butfac{
+   background-color: rgb(66, 103, 178);
+   width:auto;
+    display:flex;
+    justify-content: center;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 3px;
+}
+.butface{
+    display:flex;
+    justify-content: center;
+}
+.ifac{
+    color:white;
+}
+.fac{
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+ .message{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: orange;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-size: 25px;
+    border-radius:100% ;
+ }

@@ -6,45 +6,149 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="whogohost.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
+         <link rel="stylesheet" href="whogohost.css"> 
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    </head>
-
-    <body class="body">
-        <div class="pro">
-            <div class="jet">
-                <!-- <div class="lgo">
-                    <img src="whogohostlogo.png" alt="this is a logo" class="img">
-                </div> -->
-                <div class="frm">
-                    <form class="fom">
-                        <label class="lab  cli">Secure Client Login</label> <br>
-                        <label class="lab">Email</label> <br>
-                        <input type="email" placeholder="Enter email" class="put"> <br>
-                        <div class="ex">
-                            <label class="lab">Password</label><a href="#" class="a">Forgot?</a>
+        <style>
+            body{
+                background-color:rgb(3, 36, 123);
+            }
+            h1{
+                font-size:32px;
+                font-weight: 500px;
+                padding-top:15px ;
+                padding-bottom: 20px;
+                font-family: system-ui,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            input{
+                width: 100%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top:10px;
+                padding-bottom: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.363);
+                border-radius: 3px;
+            }
+            input:focus{
+                border:none;
+                outline: 1px solid rgba(0, 0, 255, 0.548);
+            }
+            a{
+                text-decoration: none;
+            }
+            button{
+                width: 100%;
+            }
+            hr{
+                width:100%;
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="topheader">
+            <div class="alert alert-warning alert-dismissible">
+                CAVEAT:This is a STUDENT PROJECT, not an attemp to clone the original websites
+                <button class="btn-close" data-bs-dismiss="alert" aria-label="&times;"></button>
+            </div> 
+            <div class="mynavigation">
+                <div style="background-color: darkcyan;" class="d-flex justify-content center">
+                    <p>CLICK TO NAVIGATE THROUGH OTHER PAGES &nbsp;</p>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        MY PROJECTS
+                    </a> 
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-color: rgba(0, 0, 0, 0.459);">
+                    <div class="offcanvas-header" style="background-color: rgb(251, 255, 0);">
+                        THESE ARE MY PROJECTS
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div>
+                        <div style="background-color: rgba(255, 255, 0, 0.877);">
+                            <h5><a href="mockplus.html">PROJECT1</a></h5>
+                            <hr>
                         </div>
-                        <input type="password" placeholder="Password" class="put"><br>
-                        <div class="">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">Remember Me
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="cloudflare.html">PROJECT2</a></h5>
+                            <hr>
                         </div>
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-primary" type="button">Login</button>
+                        <div style="background-color: #ffffff;">
+                            <h5><a href="whogohost.html">PROJECT3</a></h5>
+                            <hr>
                         </div>
-                        <div class="dor">
-                            <hr class="lin"><span>or</span><hr class="lin">
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="iconfinder.html">PROJECT4</a></h5>
+                            <hr>
                         </div>
-                        <div class="yuo">
-                            <button class="tuo">
-                                <i class="bi bi-facebook"></i><span class="ko">Sign in with Facebook </span>
-                            </button>
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="udacity.html">PROJECT5</a></h5>
+                            <hr>
                         </div>
-                    </form>
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="10web.io.html">PROJECT6</a></h5>
+                            <hr>
+                        </div>
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="crushingit.html">PROJECT7</a></h5>
+                            <hr>
+                        </div>
+                        <div style="background-color: rgb(255, 255, 0);">
+                            <h5><a href="nikkihillapotechy.html">PROJECT8</a></h5>
+                            <hr>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <script src="javabootstrap.min.js"></script>
+        <div class="cevi">
+            <div>
+                <div  class="logodiv">
+                    <img src="logo_big_whogohost.png"class="logo">
+                </div>
+                <div class="vedi">
+                    <div  class="devi">
+                        <h1>Secure Client Login</h1>
+                        <form>
+                            <div>
+                                <label>Email</label> <br>
+                                <input type="email" placeholder="Enter Mail">
+                            </div><br>
+                            <div class="passline">
+                                <label>Password</label>
+                                <a href="#">Forgot?</a>
+                            </div>
+                            <input type="Password"  placeholder="Password"><br>
+                            <br>
+                            <span>
+                                <input class="form-check-input  cbox" type="checkbox" value="" id="flexCheckChecked"  style="width: 3px;">
+                                <span>Remember Me</span><br>
+                            </span><br>
+                            <button class="butlog"><span>Login</span></button>
+                            <div class="orfoot">
+                                <hr  class="hrsp">
+                                <span>or</span>
+                                <hr  class="hrsp"><br>
+                            </div>
+                            <div class="butface">
+                            <button class="butfac">
+                                <i class="bi bi-facebook  ifac"></i>
+                                <span class="fac">Sign in with Facebook</span>
+                            </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="foot">
+                        <span>Not a Member yet?</span>
+                        <a href="#">Create a New Account</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="message">
+            <i class="bi bi-chat-text"></i>
+        </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
     </body>
-
 </html>
